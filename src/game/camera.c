@@ -695,7 +695,7 @@ void set_camera_height(struct Camera *c, f32 goalHeight) {
             goalHeight = camFloorHeight;
             c->pos[1] = goalHeight;
         }
-        approach_camera_height(c, goalHeight, 40.f);
+        approach_camera_height(c, goalHeight, 30.f);
         if (camCeilHeight != CELL_HEIGHT_LIMIT) {
             camCeilHeight -= baseOff;
             if ((c->pos[1] > camCeilHeight && sMarioGeometry.currFloorHeight + baseOff < camCeilHeight)
@@ -822,7 +822,8 @@ void radial_camera_move(struct Camera *c) {
     }
 
     if (gCameraMovementFlags & CAM_MOVE_ENTERED_ROTATE_SURFACE) {
-        rotateSpeed = 0x7F;
+        rotateSpeed = 0x6F;
+        maxAreaYaw = DEGREES(25); // causes the camera to stop sooner when entering snow slider
     }
 
     // Avoid obstructing walls
