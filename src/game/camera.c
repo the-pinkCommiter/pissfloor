@@ -723,12 +723,8 @@ s16 look_down_slopes(s16 camYaw) {
 
     if (floor != NULL) {
         if (floor->type != SURFACE_WALL_MISC && floorDY > 0) {
-            if (floor->normal.z == 0.f && floorDY < 100.f) {
-                pitch = 0x05B0;
-            } else {
-                // Add the slope's angle of declination to the pitch
-                pitch += atan2s(40.f, floorDY);
-            }
+            // Add the slope's angle of declination to the pitch
+            pitch += atan2s(40.f, floorDY);
         }
     }
 

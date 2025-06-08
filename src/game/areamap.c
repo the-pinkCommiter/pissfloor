@@ -158,8 +158,8 @@ Gfx *AreaMap(s32 callContext, struct GraphNode *node, UNUSED Mat4 *c) {
 
         if (gMapStatus == MAP_STATUS_LOWERING) {
             gMapPosi -= 15.0f;
-            if (gMapPosi < 193.0f) {
-                gMapPosi = 193.0f;
+            if (gMapPosi < 190.0f) {
+                gMapPosi = 190.0f;
                 gMapStatus = MAP_STATUS_ONSCREEN;
             }
         } else if (gMapStatus == MAP_STATUS_RISING) {
