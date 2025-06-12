@@ -1,7 +1,7 @@
 # showfloor
 ![showfloorlogo](https://github.com/user-attachments/assets/255078c5-d31c-4284-a720-f1f2ddcefd4f)
 
-'showfloor' is a reimplementation of [The Preservation Project](https://github.com/Sunlitspace542/tpp-mirror) (or TPP, for short) with many improvements and details sourced from footage of the Space World 1995 demo. This project aims to continue the hack's legacy by being even more accurate to the source material whilst keeping the source code clean and easy to modify. (This is an open-source project, after all...)
+'showfloor' is a reimplementation of [The Preservation Project](https://github.com/Sunlitspace542/tpp-mirror) (or TPP, for short) with many improvements and details sourced from footage of the Shoshinkai 1995 demo. This project aims to continue the hack's legacy by being even more accurate to the source material whilst keeping the source code clean and easy to modify. (This is an open-source project, after all...)
 
 ## Q&A
 
