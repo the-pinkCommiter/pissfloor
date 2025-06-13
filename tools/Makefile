@@ -49,7 +49,7 @@ endif
 
 flips: CC := $(CXX)
 flips_SOURCES := FlipsSrc/Flips.cpp
-flips_CFLAGS := -Wall -Wextra -fopenmp -Os -flto -fuse-linker-plugin -fomit-frame-pointer -fmerge-all-constants \
+flips_CFLAGS := -Wall -Wextra -Os -flto -fomit-frame-pointer -fmerge-all-constants \
 -fvisibility=hidden -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables \
 -ffunction-sections -fdata-sections -Wl,--gc-sections \
 -fvisibility=hidden -fno-exceptions -fno-rtti -fno-unwind-tables -fno-asynchronous-unwind-tables \
