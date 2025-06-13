@@ -22,7 +22,7 @@ jobs:
       run: docker build . --file Dockerfile --tag sm64
 
     - name: Run the Docker image
-      run: docker run --rm --mount type=bind,source="$(pwd)",destination=/sm64 sm64 bash makecontinuous.sh "${{github.event.repository.name}}-${{github.ref_name}}.bps"
+      run: docker run --rm --mount type=bind,source="$(pwd)",destination=/sm64 sm64 bash makecontinuous.sh ${{github.event.repository.name}} ${{github.ref_name}}
 
     - name: Push build to GitHub releases
       uses: docker://ghcr.io/mini-bomba/create-github-release:v1.2.0
