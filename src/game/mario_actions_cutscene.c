@@ -631,7 +631,7 @@ s32 act_spawn_spin_airborne(struct MarioState *m) {
     switch (perform_air_step(m, 0)) {
         case AIR_STEP_LANDED:
             if (m->actionState++ == 0) {
-                m->vel[1] = 32.0f;
+                m->vel[1] = 36.0f;
             } else {
                 set_mario_action(m, ACT_SPAWN_SPIN_LANDING, 0);
             }
