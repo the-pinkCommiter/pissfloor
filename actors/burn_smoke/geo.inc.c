@@ -7,7 +7,7 @@ extern const Gfx gfx_burn_smoke_v6[];
 extern const Gfx gfx_burn_smoke_v7[];
 extern const Gfx gfx_burn_smoke_v8[];
 
-Hierarchy burn_smoke_geo[] = {
+const GeoLayout burn_smoke_geo[] = {
    hmsGroup()
    hmsBegin()
 		hmsSelect(8, geo_switch_anim_state /* ControlShapeAnime */)
