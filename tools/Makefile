@@ -47,6 +47,19 @@ ifeq ($(HOST_ENV),MinGW)
   armips_LDFLAGS += -municode
 endif
 
+ifeq ($(shell uname -s),Linux)
+  BUILD_PROGRAMS += flips
+endif
+
+flips: CC := $(CXX)
+flips_SOURCES := FlipsSrc/Flips.cpp
+flips_CFLAGS := -Wall -Wextra -fopenmp -Os -flto -fuse-linker-plugin -fomit-frame-pointer -fmerge-all-constants \
+-fvisibility=hidden -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables \
+-ffunction-sections -fdata-sections -Wl,--gc-sections \
+-fvisibility=hidden -fno-exceptions -fno-rtti -fno-unwind-tables -fno-asynchronous-unwind-tables \
+-ffunction-sections -fdata-sections -Wl,--gc-sections  \
+-Wl,-z,relro,-z,now,--as-needed,--hash-style=gnu,--relax
+
 all-except-recomp: $(LIBAUDIOFILE) $(BUILD_PROGRAMS)
 
 all: all-except-recomp ido-static-recomp
