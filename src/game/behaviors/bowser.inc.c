@@ -458,18 +458,9 @@ void bowser_act_walk_to_mario(void) {
 
     // Set turning speed depending of the health
     // Also special case for BitFS
-    if (o->oBhvParams2ndByte == BOWSER_BP_BITFS) {
-        turnSpeed = 0x400;
-    } else { // BOWSER_BP_BITDW or BOWSER_BP_BITS
-        if (o->oHealth > 2) {
-            turnSpeed = 0x400;
-        } else if (o->oHealth == 2) {
-            turnSpeed = 0x300;
-        } else { // 1 health
-            turnSpeed = 0x200;
-        }
-    }
+    turnSpeed = 0x200;
 
+    if (angleFromMario > turnSpeed)
     facing = cur_obj_rotate_yaw_toward(o->oAngleToMario, turnSpeed);
 
     if (o->oSubAction == 0) {

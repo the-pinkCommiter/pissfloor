@@ -5433,7 +5433,7 @@ BAD_RETURN(s32) cutscene_enter_bowser_arena_end(struct Camera *c) {
  */
 BAD_RETURN(s32) cutscene_enter_bowser_arena(struct Camera *c) {
     cutscene_event(cutscene_enter_bowser_arena_init, c, 0, 0);
-    cutscene_event(cutscene_enter_bowser_arena_follow_mario, c, 0, 70);
+    cutscene_event(cutscene_enter_bowser_arena_follow_mario, c, 0, 83);
 }
 
 /**
@@ -6444,7 +6444,7 @@ struct Cutscene sCutsceneSuffocation[] = { { cutscene_suffocation, CUTSCENE_LOOP
 /**
  * Cutscene that plays when entering bowser's arenas.
  */
-struct Cutscene sCutsceneEnterBowserArena[] = { { cutscene_enter_bowser_arena, 90 },
+struct Cutscene sCutsceneEnterBowserArena[] = { { cutscene_enter_bowser_arena, 83 },
                                                 { cutscene_enter_bowser_arena_end, 0 } };
 
 // The dance cutscenes are automatically stopped since reset_camera() is called after Mario warps.
