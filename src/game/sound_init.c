@@ -202,9 +202,6 @@ void play_bowser_hallway_music(void) {
         }
     }
 
-    print_text_fmt_int(16, 104, "PIS %d", sPlayingBowserHallway);
-    print_text_fmt_int(16, 120, "SP %d", shouldPlay);
-
     if (sPlayingBowserHallway ^ shouldPlay) {
         sPlayingBowserHallway = shouldPlay;
         if (shouldPlay) {
