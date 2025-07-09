@@ -48,10 +48,13 @@ If there are any more questions regarding this project, we invite you to join ou
 - emlimate
 - XKoop7321
 - xerox
+- Phil564
+- penguinlambz
+- skibidigurt
   
 ### Special Thanks
 - Dudaw
-- brancolox
+- Neverax
 - na0micakes
 - duskewl/jadu
 - Matsilagi
