@@ -51,6 +51,7 @@ If there are any more questions regarding this project, we invite you to join ou
 - Phil564
 - penguinlambz
 - skibidigurt
+- Holo
   
 ### Special Thanks
 - Dudaw
