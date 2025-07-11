@@ -545,10 +545,10 @@ Gfx fire_bubble_1_dl_mesh_tri_5[] = {
 };
 
 Vtx fire_bubble_1_dl_mesh_vtx_6[4] = {
-	{{ {-767, 307, -3647}, 0, {-4134, 974}, {0, 127, 0, 255} }},
-	{{ {768, 307, -5055}, 0, {974, -3710}, {0, 127, 0, 255} }},
-	{{ {-767, 307, -5055}, 0, {-4134, -3710}, {0, 127, 0, 255} }},
-	{{ {768, 307, -3647}, 0, {974, 974}, {0, 127, 0, 255} }},
+	{{ {-767, 307, -3647}, 0, {-3310, 736}, {0, 127, 0, 255} }},
+	{{ {768, 307, -5055}, 0, {1010, -3225}, {0, 127, 0, 255} }},
+	{{ {-767, 307, -5055}, 0, {-3310, -3225}, {0, 127, 0, 255} }},
+	{{ {768, 307, -3647}, 0, {1010, 736}, {0, 127, 0, 255} }},
 };
 
 Gfx fire_bubble_1_dl_mesh_tri_6[] = {
@@ -576,7 +576,7 @@ Gfx fire_bubble_1_dl_mesh[] = {
 	gsSPDisplayList(fire_bubble_1_dl_mesh_tri_4),
 	gsSPDisplayList(mat_fire_bubble_WallMaterial),
 	gsSPDisplayList(fire_bubble_1_dl_mesh_tri_5),
-	gsSPDisplayList(mat_fire_bubble_LightBlueGravelMaterial),
+	gsSPDisplayList(mat_fire_bubble_GrayGravelMaterial),
 	gsSPDisplayList(fire_bubble_1_dl_mesh_tri_6),
 	gsDPPipeSync(),
 	gsSPSetGeometryMode(G_LIGHTING),
