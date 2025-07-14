@@ -1354,7 +1354,7 @@ s32 update_boss_fight_camera(struct Camera *c, Vec3f focus, Vec3f pos) {
         heldState = 0;
     }
 
-    focusDistance = calc_abs_dist(sMarioCamState->pos, secondFocus) * 1.6f;
+    focusDistance = calc_abs_dist(sMarioCamState->pos, secondFocus) * 1.5f;
     if (focusDistance < 800.f) {
         focusDistance = 800.f;
     }
@@ -5404,9 +5404,9 @@ BAD_RETURN(s32) cutscene_bowser_arena_pan_left(UNUSED struct Camera *c) {
  * which is relative to the unaltered camera position when entering the arena.
  */
 BAD_RETURN(s32) cutscene_enter_bowser_arena_init(UNUSED struct Camera *c) {
-    rotate_and_move_vec3f(c->pos, sMarioCamState->pos, 0, 0, 0x7A12);
-    c->pos[1] += 50.0f;
-    c->pos[2] -= 60.0f;
+    rotate_and_move_vec3f(c->pos, sMarioCamState->pos, 0, 0, 0x7B12);
+    c->pos[1] += 60.0f;
+    c->pos[2] -= 45.0f;
 
     vec3f_copy(sCutsceneVars[0].point, c->pos); // save position
 }
@@ -5416,30 +5416,9 @@ BAD_RETURN(s32) cutscene_enter_bowser_arena_init(UNUSED struct Camera *c) {
  * height.
  */
 BAD_RETURN(s32) cutscene_enter_bowser_arena_follow_mario(struct Camera *c) {
-    c->focus[1] = gMarioState->pos[1] + gMarioObject->hitboxHeight;
-}
-
-/**
- * Gets played at the end of the cutscene, sets the current cutscene to 0 and transitions the camera.
- */
-BAD_RETURN(s32) cutscene_enter_bowser_arena_end(struct Camera *c) {
-    c->cutscene = 0;
-    transition_next_state(c, 3);
-    sModeOffsetYaw = 0x256;
-    gSecondCameraFocus->oBowserCamAct = 2;
-}
-// fix this
-
-/**
- * Cutscene that plays when mario enters a bowser fight.
- */
-BAD_RETURN(s32) cutscene_enter_bowser_arena(struct Camera *c) {
     Vec3f rotatedPos;
     f32 baseDist;
     s16 basePitch, baseYaw, finalYaw;
-    
-    cutscene_event(cutscene_enter_bowser_arena_init, c, 0, 0);
-    cutscene_event(cutscene_enter_bowser_arena_follow_mario, c, 0, 83);
 
     mode_boss_fight_camera(c);
 
@@ -5454,6 +5433,25 @@ BAD_RETURN(s32) cutscene_enter_bowser_arena(struct Camera *c) {
     c->focus[1] = gMarioState->pos[1] + gMarioObject->hitboxHeight;
     c->focus[2] = sMarioCamState->pos[2];
 
+}
+
+/**
+ * Gets played at the end of the cutscene, sets the current cutscene to 0 and transitions the camera.
+ */
+BAD_RETURN(s32) cutscene_enter_bowser_arena_end(struct Camera *c) {
+    c->cutscene = 0;
+    transition_next_state(c, 3);
+    sModeOffsetYaw = 0;
+    gSecondCameraFocus->oBowserCamAct = 2;
+}
+// fix this
+
+/**
+ * Cutscene that plays when mario enters a bowser fight.
+ */
+BAD_RETURN(s32) cutscene_enter_bowser_arena(struct Camera *c) {
+    cutscene_event(cutscene_enter_bowser_arena_init, c, 0, 0);
+    cutscene_event(cutscene_enter_bowser_arena_follow_mario, c, 0, 83);
 }
 
 /**
