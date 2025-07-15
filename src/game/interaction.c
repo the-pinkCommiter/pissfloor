@@ -93,6 +93,7 @@ static struct InteractionHandler sInteractionHandlers[] = {
     { INTERACT_FLAME, interact_flame },
     { INTERACT_SNUFIT_BULLET, interact_snufit_bullet },
     { INTERACT_CLAM_OR_BUBBA, interact_clam_or_bubba },
+    { INTERACT_BULLY, interact_bully },
     { INTERACT_BOUNCE_TOP2, interact_bounce_top },
     { INTERACT_MR_BLIZZARD, interact_mr_blizzard },
     { INTERACT_HIT_FROM_BELOW, interact_hit_from_below },
