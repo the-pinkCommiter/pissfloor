@@ -131,7 +131,7 @@
             "sound": "0A"
         },
         "inst11": {
-            "release_rate": 137,
+            "release_rate": 0,
             "envelope": "envelope2",
             "sound": "0B"
         },
