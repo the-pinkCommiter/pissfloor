@@ -3,12 +3,6 @@
     "sample_bank": "instruments",
     "envelopes": {
         "envelope0": [
-            [4, 32700],
-            [103, 24112],
-            [409, 0],
-            "hang"
-        ],
-        "envelope1": [
             [2, 32700],
             [103, 24112],
             [409, 0],
@@ -20,15 +14,9 @@
             "release_rate": 10,
             "envelope": "envelope0",
             "sound": "26_tine_piano"
-        },
-        "inst1": {
-            "release_rate": 10,
-            "envelope": "envelope1",
-            "sound": "26_tine_piano"
         }
     },
     "instrument_list": [
-        "inst0",
-        "inst1"
+        "inst0"
     ]
 }
