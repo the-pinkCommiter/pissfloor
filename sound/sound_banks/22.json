@@ -2,7 +2,7 @@
     "date": "1996-03-19",
     "sample_bank": "instruments",
     "envelopes": {
-        "envelope0": [
+        "envelope0": [ // not sure whether i should 'fix' this or not cos rn it's kinda silly
             [1, 1],
             [1, 1],
             [1, 29430],
