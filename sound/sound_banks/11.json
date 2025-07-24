@@ -147,19 +147,19 @@
             {"release_rate": 10, "pan": 65, "envelope": "envelope4", "sound": {"sample": "08", "tuning": 4.621928}},
             {"release_rate": 10, "pan": 66, "envelope": "envelope4", "sound": {"sample": "08", "tuning": 3.40146275}},
             {"release_rate": 10, "pan": 66, "envelope": "envelope4", "sound": {"sample": "08", "tuning": 3.5766682}},
-            {"release_rate": 10, "pan": 6, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 6, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 27, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 27, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}},//log drums!!!
-            {"release_rate": 10, "pan": 45, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 45, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 53, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 53, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 83, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 83, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 83, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 83, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
-            {"release_rate": 10, "pan": 83, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.4}}, //log drums!!!
+            {"release_rate": 10, "pan": 6, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 6, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 27, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 27, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 45, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 45, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 53, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 53, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 83, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 83, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 83, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 83, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 83, "envelope": "envelope4", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
             {"release_rate": 10, "pan": 35, "envelope": "envelope8", "sound": {"sample": "0A_tambourine", "tuning": 1.189207}},
             {"release_rate": 10, "pan": 35, "envelope": "envelope8", "sound": {"sample": "0A_tambourine", "tuning": 1.259921}},
             {"release_rate": 10, "pan": 35, "envelope": "envelope8", "sound": {"sample": "0A_tambourine", "tuning": 1.33484}},
