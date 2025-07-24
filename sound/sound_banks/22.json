@@ -2,10 +2,10 @@
     "date": "1996-03-19",
     "sample_bank": "instruments",
     "envelopes": {
-        "envelope0": [ // not sure whether i should 'fix' this or not cos rn it's kinda silly
-            [1, 1],
-            [1, 1],
-            [1, 29430],
+        "envelope0": [
+            [2, 32700],
+            [1, 32700],
+            [32700, 29430],
             "hang"
         ],
         "envelope1": [
@@ -16,8 +16,8 @@
         ],
         "envelope2": [
             [2, 32700],
-            [205, 19818],
-            [535, 0],
+            [1, 32700],
+            [32700, 29430],
             "hang"
         ],
         "envelope3": [
@@ -69,18 +69,18 @@
         "percussion": [
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 0.735784}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 0.77953575}},
-            {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 0.82589}},
+            {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 0.82588975}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 0.875}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 0.926031}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 0.98215425}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.040557}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.10243175}},
-            {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.168985}},
+            {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.167985}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.23743725}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.3110195}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.38897675}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.47156975}},
-            {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.55807325}},
+            {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.55907325}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.65178125}},
             {"release_rate": 10, "pan": 62, "envelope": "envelope4", "sound": {"sample": "06_kick_drum_1", "tuning": 1.75}},
             {"release_rate": 10, "pan": 57, "envelope": "envelope4", "sound": "07_rimshot"},
