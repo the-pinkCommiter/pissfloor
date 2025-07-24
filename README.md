@@ -51,10 +51,10 @@ If there are any more questions regarding this project, we invite you to join ou
 - Phil564
 - penguinlambz
 - skibidigurt
+- diesel64
 - Holo
   
 ### Special Thanks
-- Dudaw
 - Neverax
 - na0micakes
 - duskewl/jadu
