@@ -84,12 +84,8 @@
     "instruments": {
         "inst0": {
             "release_rate": 10,
-            "normal_range_lo": 19,
-            "normal_range_hi": 19,
-            "envelope": "envelope0",
-            "sound_lo": "38_electric_kick_drum",
-            "sound": {"sample": "08", "tuning": 7.4246235},
-            "sound_hi": "38_electric_kick_drum"
+            "envelope": "envelope1",
+            "sound": "08"  
         },
         "inst1": {
             "release_rate": 208,
@@ -178,18 +174,18 @@
             {"release_rate": 10, "pan": 54, "envelope": "envelope8", "sound": {"sample": "0B", "tuning": 0.81943786}},
             {"release_rate": 10, "pan": 70, "envelope": "envelope8", "sound": {"sample": "0B", "tuning": 1.5468929}},
             {"release_rate": 10, "pan": 70, "envelope": "envelope8", "sound": {"sample": "0B", "tuning": 1.6388757}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 0.793701}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 0.840897}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 0.890899}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 0.943875}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.0}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.059463}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.122462}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.189207}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.259921}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.33484}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.414214}},
-            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.498307}},
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
+            {"release_rate": 10, "pan": 82, "envelope": "envelope8", "sound": {"sample": "0C_log_drum", "tuning": 1.55}}, //log drums!!!
             {"release_rate": 10, "pan": 128, "envelope": "envelope8", "sound": "0D_clave"}
         ],
         "inst8": {
@@ -216,13 +212,9 @@
             "sound": "13_snare_drum_2"
         },
         "inst11": {
-            "release_rate": 208,
-            "normal_range_lo": 60,
-            "normal_range_hi": 60,
-            "envelope": "envelope12",
-            "sound_lo": "1E_closed_triangle",
-            "sound": "1F_open_triangle",
-            "sound_hi": "20_cabasa"
+            "release_rate": 150,
+            "envelope": "envelope7",
+            "sound": "20_cabasa"
         },
         "inst12": {
             "release_rate": 208,
@@ -233,6 +225,11 @@
             "release_rate": 208,
             "envelope": "envelope0",
             "sound": "4B"
+        },
+        "inst14": {
+            "release_rate": 208,
+            "envelope": "envelope0",
+            "sound": "4C"
         }
     },
     "instrument_list": [/* the 'null' instruments in this soundbank were 
@@ -253,6 +250,7 @@
         "inst10",
         "inst11",
         "inst12",
-        "inst13"
+        "inst13",
+        "inst14"
     ]
 }
