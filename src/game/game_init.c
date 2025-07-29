@@ -516,9 +516,6 @@ void thread5_game_loop(UNUSED void *arg) {
 
     while (TRUE) {
         // If the reset timer is active, run the process to reset the game.
-        if (gResetTimer != 0) {
-            continue;
-        }
         profiler_log_thread5_time(THREAD5_START);
 
         // If any controllers are plugged in, start read the data for when
