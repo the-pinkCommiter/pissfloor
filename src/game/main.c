@@ -142,7 +142,6 @@ void create_thread(OSThread *thread, OSId id, void (*entry)(void *), void *arg, 
 }
 
 void handle_nmi_request(void) {
-    gResetTimer = 1;
     gNmiResetBarsTimer = 0;
     stop_sounds_in_continuous_banks();
     sound_banks_disable(SEQ_PLAYER_SFX, SOUND_BANKS_BACKGROUND);
