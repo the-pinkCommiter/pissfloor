@@ -214,7 +214,7 @@ void play_bowser_hallway_music(void) {
  * Called from threads: thread5_game_loop
  */
 void set_background_music(u16 seqArgs, s16 fadeTimer) {
-    if (gResetTimer == 0 && seqArgs != sCurrentMusic) {
+    if (seqArgs != sCurrentMusic) {
         sound_reset();
 
         play_music(SEQ_PLAYER_LEVEL, seqArgs, fadeTimer);
@@ -317,16 +317,14 @@ void thread4_sound(UNUSED void *arg) {
 
     while (TRUE) {
         OSMesg msg;
+        struct SPTask *spTask;
 
         osRecvMesg(&sSoundMesgQueue, &msg, OS_MESG_BLOCK);
-        if (gResetTimer < 25) {
-            struct SPTask *spTask;
-            profiler_log_thread4_time();
-            spTask = create_next_audio_frame_task();
-            if (spTask != NULL) {
-                dispatch_audio_sptask(spTask);
-            }
-            profiler_log_thread4_time();
+        profiler_log_thread4_time();
+        spTask = create_next_audio_frame_task();
+        if (spTask != NULL) {
+            dispatch_audio_sptask(spTask);
         }
+        profiler_log_thread4_time();
     }
 }
