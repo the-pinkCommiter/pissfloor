@@ -50,16 +50,19 @@ If there are any more questions regarding this project, we invite you to join ou
 - xerox
 - Phil564
 - penguinlambz
+- RetroDev
+- Fluvian
 - skibidigurt
 - diesel64
 - Holo
+- toonjoey
   
 ### Special Thanks
+- icehotlemonade
 - Neverax
 - na0micakes
 - duskewl/jadu
 - Matsilagi
-- toonjoey
 - darkestafterglo
 - Tony (Hard4Games)
 - aaali
