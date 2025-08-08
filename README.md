@@ -17,7 +17,7 @@
 
 - Yep.
 
-If there are any more questions regarding this project, we invite you to join our [Discord Server.](https://discord.gg/rjWEDCqW4c)
+If there are any more questions regarding this project, we invite you to join our [Discord Server.](https://discord.gg/FbMFSKVTv2)
 
 ## Credits
 
