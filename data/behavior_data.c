@@ -357,7 +357,7 @@ const BehaviorScript bhvGiantPole[] = {
     BEGIN(OBJ_LIST_POLELIKE),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     SET_INT(oInteractType, INTERACT_POLE),
-    SET_HITBOX(/*Radius*/ 80, /*Height*/ 1400),
+    SET_HITBOX(/*Radius*/ 80, /*Height*/ 1350),
     SET_HOME(),
     SET_INT(oIntangibleTimer, 0),
     BEGIN_LOOP(),
@@ -539,6 +539,18 @@ const BehaviorScript bhvCannonBarrel[] = {
     BEGIN_LOOP(),
         CALL_NATIVE(bhv_cannon_barrel_loop),
     END_LOOP(),
+};
+
+const BehaviorScript bhvCannonBaseUnused[] = {
+    BEGIN(OBJ_LIST_DEFAULT),
+    OR_INT(oFlags, (OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_MOVE_XZ_USING_FVEL | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)),
+    BILLBOARD(),
+    SET_INT(oAnimState, -1),
+    BEGIN_REPEAT(8),
+        CALL_NATIVE(bhv_cannon_base_unused_loop),
+        ADD_INT(oAnimState, 1),
+    END_REPEAT(),
+    DEACTIVATE(),
 };
 
 const BehaviorScript bhvRotatingPlatform[] = {
