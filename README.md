@@ -53,6 +53,7 @@ If there are any more questions regarding this project, we invite you to join ou
 - RetroDev
 - Fluvian
 - skibidigurt
+- Woohale54
 - diesel64
 - Holo
 - toonjoey
@@ -63,7 +64,7 @@ If there are any more questions regarding this project, we invite you to join ou
 - na0micakes
 - duskewl/jadu
 - Matsilagi
-- darkestafterglo
+- lunr
 - Tony (Hard4Games)
 - aaali
 
@@ -83,7 +84,7 @@ If there are any more questions regarding this project, we invite you to join ou
 
 #### Research & Playtesting
 - Xiartic
-- darkestafterglo
+- lunr
   
 ### Original 'The Preservation Project' Contributors
 - 1up Guy
