@@ -206,11 +206,10 @@ static s32 boo_update_during_death(void) {
         o->oFlags &= ~OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW;
     } else {
         if (o->oTimer == 5) {
-            o->oBooTargetOpacity = 0;
+            o->oBooTargetOpacity = 250;
         }
 
         if (o->oTimer > 30 || o->oMoveFlags & 0x200) {
-            spawn_mist_particles();
             o->oBooDeathStatus = BOO_DEATH_STATUS_DEAD;
 
             if (o->oBooParentBigBoo != NULL) {
