@@ -57,6 +57,7 @@ If there are any more questions regarding this project, we invite you to join ou
 - diesel64
 - Holo
 - toonjoey
+- Lurondor
   
 ### Special Thanks
 - icehotlemonade
