@@ -41,6 +41,7 @@ If there are any more questions regarding this project, we invite you to join ou
 
 #### Research & Playtesting
 - Scraps
+- duskewl/jadu
 - `K-Dubs΄
   
 ### Contributors
@@ -63,7 +64,6 @@ If there are any more questions regarding this project, we invite you to join ou
 - icehotlemonade
 - Neverax
 - na0micakes
-- duskewl/jadu
 - Matsilagi
 - lunr
 - Tony (Hard4Games)
