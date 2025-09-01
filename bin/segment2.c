@@ -11,43 +11,43 @@
 // SM64 (US/JP/EU/SH) Segment 02
 
 ALIGNED8 static const Texture texture_hud_char_0[] = {
-#include "textures/segment2/segment2.00000.rgba16.inc.c"
+#include "textures/segment2/hud_0_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_1[] = {
-#include "textures/segment2/segment2.00200.rgba16.inc.c"
+#include "textures/segment2/hud_1_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_2[] = {
-#include "textures/segment2/segment2.00400.rgba16.inc.c"
+#include "textures/segment2/hud_2_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_3[] = {
-#include "textures/segment2/segment2.00600.rgba16.inc.c"
+#include "textures/segment2/hud_3_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_4[] = {
-#include "textures/segment2/segment2.00800.rgba16.inc.c"
+#include "textures/segment2/hud_4_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_5[] = {
-#include "textures/segment2/segment2.00A00.rgba16.inc.c"
+#include "textures/segment2/hud_5_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_6[] = {
-#include "textures/segment2/segment2.00C00.rgba16.inc.c"
+#include "textures/segment2/hud_6_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_7[] = {
-#include "textures/segment2/segment2.00E00.rgba16.inc.c"
+#include "textures/segment2/hud_7_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_8[] = {
-#include "textures/segment2/segment2.01000.rgba16.inc.c"
+#include "textures/segment2/hud_8_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_9[] = {
-#include "textures/segment2/segment2.01200.rgba16.inc.c"
+#include "textures/segment2/hud_9_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_A[] = {
@@ -187,15 +187,15 @@ ALIGNED8 static const Texture texture_hud_char_multiply[] = {
 };
 
 ALIGNED8 static const Texture texture_hud_char_coin[] = {
-#include "textures/segment2/segment2.05800.rgba16.inc.c"
+#include "textures/segment2/hud_coin_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_mario_head[] = {
-#include "textures/segment2/segment2.05A00.rgba16.inc.c"
+#include "textures/segment2/hud_head_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_star[] = {
-#include "textures/segment2/segment2.05C00.rgba16.inc.c"
+#include "textures/segment2/hud_star_custom.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_decimal_point[] = {

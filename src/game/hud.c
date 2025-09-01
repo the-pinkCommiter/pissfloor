@@ -258,16 +258,16 @@ void render_hud_power_meter(void) {
 void render_hud_mario_lives(void) {
     print_text(30, HUD_TOP_Y, ","); // 'Mario Head' glyph
     print_text(46, HUD_TOP_Y, "*"); // 'X' glyph
-    print_text_fmt_int(60, HUD_TOP_Y, "%d", gHudDisplay.lives);
+    print_text_fmt_int(60, HUD_TOP_Y, "%02d", gHudDisplay.lives);
 }
 
 /**
  * Renders the amount of coins collected.
  */
 void render_hud_coins(void) {
-    print_text(171, HUD_TOP_Y - 17, "+"); // 'Coin' glyph
-    print_text(187, HUD_TOP_Y - 17, "*"); // 'X' glyph
-    print_text_fmt_int(201, HUD_TOP_Y - 17, "%d", gHudDisplay.coins);
+    print_text(242, HUD_TOP_Y, "+"); // 'Coin' glyph
+    print_text(258, HUD_TOP_Y, "*"); // 'X' glyph
+    print_text_fmt_int(271, HUD_TOP_Y, "%02d", gHudDisplay.coins);
 }
 
 /**
@@ -277,7 +277,7 @@ void render_hud_coins(void) {
 void render_hud_stars(void) {
     print_text(171, HUD_TOP_Y, "-"); // 'Star' glyph
     print_text(187, HUD_TOP_Y, "*"); // 'X' glyph
-    print_text_fmt_int(201, HUD_TOP_Y, "%d", gHudDisplay.stars);
+    print_text_fmt_int(201, HUD_TOP_Y, "%02d", gHudDisplay.stars);
 }
 
 /**
