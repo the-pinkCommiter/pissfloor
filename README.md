@@ -1,25 +1,31 @@
-# showfloor
-![showfloorlogo](https://github.com/user-attachments/assets/255078c5-d31c-4284-a720-f1f2ddcefd4f)
-
-'showfloor' is a reimplementation of [The Preservation Project](https://github.com/Sunlitspace542/tpp-mirror) (or TPP, for short) with many improvements and details sourced from footage of the Shoshinkai 1995 demo. This project aims to continue the hack's legacy by being even more accurate to the source material whilst keeping the source code clean and easy to modify. (This is an open-source project, after all...)
+# Project POF (piss on floor)
+Project "Piss on Floor" is a parody hack meant to poke fun of those old, crappy beta hacks. (e.g. mariosan's, dudaw's, bee, etc) Without the existing release of [TPP](https://github.com/Sunlitspace542/tpp-mirror) and the reimplementation which is [showfloor](https://github.com/96flashbacks/showfloor), this hack would have not been possible.
 
 ## Q&A
 
 **Why was this done?**
+idk i made it for fun lol.
 
-- The original TPP source code was cluttered with unused assets and code from the vanilla game. It was also built off of an [outdated refresh of the SM64 Decomp](https://github.com/n64decomp/sm64/commit/c45aa301bb07a14eb1b1ebc9e73b8fed60817292), which led to compilation issues for some users—often requiring workarounds like Docker. For these reasons, we figured that rebuilding the project from scratch was more practical than attempting to clean up the original source code.
-
-**Am I allowed to use this source code as a base for another project?**
-
-- Sure, you can do that. Although we wouldn't recommend doing so since there have been many things either edited or removed, meaning one would have to add vanilla assets back into this if they wanted to use it for a project of their own.
-
-**Was it worth it?**
-
-- Yep.
-
-If there are any more questions regarding this project, we invite you to join our [Discord Server.](https://discord.gg/CpxaEqg6ww)
+If you want more clear progresses that will come, we invite you to join our [Discord Server.](https://discord.gg/tCmJCrc4pS)
 
 ## Credits
+### 'Piss on Floor'  Credits
+
+#### Main Programming
+- PinkBro5
+
+#### Additional Scripts
+- Rovertonic (his ground pund dive code)
+
+#### Assets
+- joerobinette (?) i forgir
+- TunaSandwhich
+- Dudaw
+- B3313 (thx b33h1v3)
+- Jeff
+
+#### Soundtracks
+- Jeff
 
 ### '96flashbacks' Team
 
@@ -96,6 +102,7 @@ If there are any more questions regarding this project, we invite you to join ou
 - Diamond Hero
 
 ### Tools & Resources
+- [showfloor](https://github.com/96flashbacks/showfloor)
 - [Fast64](https://github.com/Fast-64/fast64)
 - [SM64 Decomp](https://github.com/n64decomp/sm64)
 - [64History's Archives](https://archive.org/details/sm64-beta-content)
