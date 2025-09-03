@@ -1,8 +1,9 @@
-# Project POF (piss on floor)
+# Project PF (pissfloor)
 "Guaranteed as the world's most beta-est hack ever!"
+
 EST. 2024
 
-Project "Piss on Floor" is a parody hack meant to poke fun of those old, crappy beta hacks. (e.g. mariosan's, dudaw's, bee, etc) Without the existing release of [TPP](https://github.com/Sunlitspace542/tpp-mirror) and the reimplementation which is [showfloor](https://github.com/96flashbacks/showfloor), this hack would have not been possible.
+Project "pissfloor" is a parody hack meant to poke fun of Mario 64 beta hacks (e.g. mariosan's, dudaw's, bee, etc). Without the existing release of [TPP](https://github.com/Sunlitspace542/tpp-mirror) and the reimplementation which is [showfloor](https://github.com/96flashbacks/showfloor), this hack would have not been possible.
 
 ## Q&A
 
@@ -30,6 +31,8 @@ If you want more clear progresses that will come, we invite you to join our [Dis
 
 #### Soundtracks
 - Jeff
+
+#### (Some assets in this fork here are heavily edited. Credits to the OG 96flashbacks team!)
 
 ### '96flashbacks' Team
 
