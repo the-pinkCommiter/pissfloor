@@ -251,13 +251,23 @@ DEFINE_DIALOG(DIALOG_020, 1, 5, 95, 150, _("\
 まってます。\n\
 　　　　　-ピーチより-"))
 
-DEFINE_DIALOG(DIALOG_021, 1, 4, 52, 200, _("\
-このおしろは　てんじかい\n\
-せんようです。\n\
-いろいろなせかいと\n\
-つながっているので\n\
-さきのとびらを　ひらいて\n\
-ぼうけんして　ください。"))
+DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
+。。。\n\
+\n\
+\n\
+\n\
+\n\
+NO ONE IS\n\
+HOME。。。?\n\
+\n\
+\n\
+\n\
+WELL YEAH\n\
+DUMBAHH\n\
+\n\
+\n\
+\n\
+- PINKBRO5"))
 
 DEFINE_DIALOG(DIALOG_022, 1, 3, 95, 205, _("\
 カギが　かかっている・・"))
