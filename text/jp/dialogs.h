@@ -322,10 +322,40 @@ DEFINE_DIALOG(DIALOG_029, 1, 4, 95, 205, _("\
 たりません・・・\n\
 ガハハッ！"))
 
-DEFINE_DIALOG(DIALOG_030, 1, 4, 52, 200, _("\
-このやまをのぼること\n\
-ができたら、ちょうじょう\n\
-におどろきがまっています。"))
+DEFINE_DIALOG(DIALOG_030, 1, 5, 52, 200, _("\
+WELCOME TO\n\
+FLYING\n\
+FORTRESS,\n\
+\n\
+\n\
+WHERE THE\n\
+LUSHIOUS\n\
+NATURE GROWS\n\
+\n\
+\n\
+AND THE\n\
+WHOMPS\n\
+PROSPER!\n\
+\n\
+\n\
+IF YOUVE\n\
+EVER WANTED\n\
+TO SEE\n\
+BEAUTIFUL\n\
+FLOWERS AND\n\
+TREES,\n\
+YOURE IN THE\n\
+RIGHT PLACE!\n\
+\n\
+\n\
+COME AND\n\
+VISIT THE\n\
+TOWER AND\n\
+TALK WITH\n\
+THE KING,\n\
+HE IS ALWAYS\n\
+WILLING TO\n\
+GIVE TOURS!"))
 
 DEFINE_DIALOG(DIALOG_031, 1, 3, 30, 205, _("\
 またまた　まけちゃったよ。\n\

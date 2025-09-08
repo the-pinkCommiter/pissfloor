@@ -1615,7 +1615,7 @@ void init_mario_from_save_file(void) {
     gMarioState->numStars = 0;
     gMarioState->numKeys = 0;
 
-    gMarioState->numLives = 2;
+    gMarioState->numLives = 4;
     gMarioState->health = 0x880;
 
     gMarioState->prevNumStarsForDialog = gMarioState->numStars;
