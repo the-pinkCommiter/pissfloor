@@ -3,7 +3,7 @@
     "00_sound_player": ["00", "01_terrain", "02_water", "03", "04", "05", "06", "07", "08_mario", "09", "0A_mario_peach"],
     "01_cutscene_collect_star": ["0D"],
     "02_menu_title_screen": ["11"],
-    "03_level_grass": ["22"],
+    "03_level_grass": ["streamed_audio"],
     "04_level_inside_castle": ["0E"],
     "05_level_water": ["13"],
     "06_level_hot": ["0F"],
@@ -36,5 +36,7 @@
     "21_menu_file_select": null,
     "22_cutscene_lakitu": null,
     "23_bowser_hallway_scream_left": ["1E"],
-    "24_bowser_hallway_scream_right": ["1E"]
+    "24_bowser_hallway_scream_right": ["1E"],
+    "30_custom_hell_ambiance": ["streamed_audio"],
+    "2D_custom_star_select": ["streamed_audio"]
 }
