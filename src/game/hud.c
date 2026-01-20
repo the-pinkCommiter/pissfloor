@@ -306,6 +306,11 @@ void render_hud_coins(void) {
         coin_icon = 170;
         coin_x = 187;
         coin_disp = 200;
+    } else if (gCurrLevelNum == COURSE_NONE) {
+        coin_icon = 22;
+        coin_x = 38;
+        coin_disp = 54;
+        coin_y = 193;
     } else {
         coin_icon = 242;
         coin_x = 258;
@@ -373,11 +378,11 @@ void render_hud(void) {
             render_hud_mario_lives();
         }
 
-        if (hudDisplayFlags & HUD_DISPLAY_FLAG_COIN_COUNT) {
+        if (hudDisplayFlags & HUD_DISPLAY_FLAG_COIN_COUNT | gCurrLevelNum != LEVEL_CASTLE_GROUNDS) {
             render_hud_coins();
         }
 
-        if (hudDisplayFlags & HUD_DISPLAY_FLAG_STAR_COUNT) {
+        if (hudDisplayFlags & HUD_DISPLAY_FLAG_STAR_COUNT | gCurrLevelNum >= LEVEL_MIN) {
             render_hud_stars();
         }
 
