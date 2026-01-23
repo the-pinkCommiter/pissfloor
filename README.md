@@ -1,40 +1,49 @@
-# PISSFLOOR
-<img width="1091" height="327" alt="git_1" src="https://github.com/user-attachments/assets/4a7cc04c-7264-4a82-bab2-732b3b389811" />
+# showfloor
+![showfloorlogo](https://github.com/user-attachments/assets/255078c5-d31c-4284-a720-f1f2ddcefd4f)
 
-"Guaranteed as the world's most beta-est hack ever!"
+## Introduction
 
-EST. 2024
+**showfloor** is a recreation of the Shoshinkai 1995 demo of Super Mario 64, based on [The Preservation Project](https://github.com/Sunlitspace542/tpp-mirror) (TPP). It aims to continue TPP's legacy with greater accuracy to the source material.
 
-PISSFLOOR is a parody hack meant to poke fun of Mario 64 beta hacks (e.g. mariosan's, dudaw's, bee, etc). Without the existing release of [TPP](https://github.com/Sunlitspace542/tpp-mirror) and the reimplementation which is [showfloor](https://github.com/96flashbacks/showfloor), this hack would have not been possible.
+## Installation
+
+The build process is the same as the [SM64 Decomp's](https://github.com/n64decomp/sm64).
+Follow their [README](https://github.com/n64decomp/sm64/blob/master/README.md#installation) for setup steps and prerequisites (dependencies, baserom, etc).
+
+Clone and build:
+
+```sh
+git clone https://github.com/96flashbacks/showfloor.git
+cd showfloor
+make
+```
+
+### RSP Microcode
+
+This project uses the same `GRUCODE` build variable as the SM64 Decomp, but with different options.
+
+Default is `f3d_102695`.
+
+- `f3d_102695`: gspFast3D from Ultra 64 OS release 102695 (U64 Aging Cartridge). Not HLE-compatible.
+- `f3d_20E`: gspFast3D from OS 2.0E (bbgames' ostrees). HLE-compatible.
+
+Build with a specific microcode:
+
+```sh
+make GRUCODE=f3d_20E
+```
 
 ## Q&A
 
-**Why was this done?**
+**Can I use this as a base for another project?**
+- Yes, but not recommended, as many vanilla assets were removed or edited, so you'd need to re-add them.
 
-idk i made it for fun lol.
+**Can I contribute to this repository?**
+- Contributions are welcome. Please open an issue to report problems or suggest improvements, and feel free to submit pull requests.
 
-If you want more clear progresses that will come, we invite you to join our [Discord Server.](https://discord.gg/tCmJCrc4pS)
+For more questions, join our [Discord server](https://discord.gg/ynabeAS4eD).
 
 ## Credits
-### 'PISSFLOOR' (2024) Credits
-
-#### Main Programming
-- PinkBro5
-
-#### Additional Scripts
-- Rovertonic (his ground pund dive code)
-
-#### Assets
-- joerobinette (?) i forgir
-- TunaSandwhich
-- Dudaw
-- B3313 (thx b33h1v3)
-- Jeff
-
-#### Soundtracks
-- Jeff
-
-#### (Some assets in this fork here are heavily edited. Credits to the OG 96flashbacks team!)
 
 ### '96flashbacks' Team
 
@@ -44,50 +53,73 @@ If you want more clear progresses that will come, we invite you to join our [Dis
 - elinspectorardilla
 
 #### Additional Programming
-- umm.heather
+- ummheather
 - iProgramInCpp
 
 #### Assets
 - Scraps
-- umm.heather
+- ummheather
 - 1up Guy
 - stalechilibeans
 - `K-Dubs΄
 
+#### Music & Audio
+- `K-Dubs΄
+- 1up Guy
+- stalechilibeans
+- ummheather
+
 #### Research & Playtesting
 - Scraps
+- Sleekflash16
 - duskewl/jadu
 - `K-Dubs΄
   
-### Contributors
-- SuperGarlic64
-- emlimate
-- XKoop7321
-- xerox
+### '96flashbacks' Server Contributors
+
+#### Additional Programming
 - Phil564
-- penguinlambz
-- RetroDev
-- Fluvian
-- skibidigurt
-- Woohale54
+- klorfmorf/Fluvian
 - diesel64
-- Holo
+- penguinlambz
+
+#### Assets
 - toonjoey
 - Lurondor
-  
-### Special Thanks
 - icehotlemonade
 - Neverax
+- Diamond Hero
+- Holo
+- Mr. Hatsman/sonicdude143
+
+#### Music & Audio
+- skibidigurt
+- toonjoey
+- RetroDev
+- emlimate
+- XKoop7321
+
+#### Miscellaneous Help
+- packrcrackr
+- Xiartic
+- WooHale54
+- timmy6259
+- Zucchino
+- Xerox
+  
+#### Special Thanks
 - na0micakes
 - Matsilagi
 - lunr
+- CharD
+- RM05
 - Tony (Hard4Games)
 - aaali
 
 ### Original 'The Preservation Project' Team
 
 #### Programming
-- Fluvian
+- klorfmorf/Fluvian
 - Marionova
   
 #### Assets
@@ -102,26 +134,21 @@ If you want more clear progresses that will come, we invite you to join our [Dis
 - Xiartic
 - lunr
   
-### Original 'The Preservation Project' Contributors
+#### Original 'The Preservation Project' Contributors
 - 1up Guy
-- RedderBloxxer
+- Guestpiki
 - iProgramInCpp
 - Toru the Red Fox
 - CreamDream
 - Diamond Hero
 
 ### Tools & Resources
-- [showfloor](https://github.com/96flashbacks/showfloor)
 - [Fast64](https://github.com/Fast-64/fast64)
 - [SM64 Decomp](https://github.com/n64decomp/sm64)
-- [64History's Archives](https://archive.org/details/sm64-beta-content)
-- [Dudaw's Archives](https://archive.org/details/sm64brp_src_abandoned)
-- [Roovahlees's Archives](https://archive.org/details/@roovahlees)
-- [VGM & Other Instrument Sources' Spreadsheet](https://docs.google.com/spreadsheets/d/1JJBlHHDc65fhZmKUGLrDTLCm6rfUU83-kbuD8Y0zU0o/edit?gid=2047725819#gid=2047725819)
-- [Retro Aesthetics' Mario Series Matches](https://retroaesthetics.net/mario-series-matches/)
-- [The Cutting Room Floor's Page](https://tcrf.net/Prerelease:Super_Mario_64_(Nintendo_64)/Shoshinkai_1995_Demo)
+- [64History’s Archives](https://archive.org/details/sm64-beta-content)
+- [Dudaw’s Archives](https://archive.org/details/sm64brp_src_abandoned)
+- [Roovahlees’s Archives](https://archive.org/details/@roovahlees)
+- [VGM & Other Instrument Sources Spreadsheet](https://docs.google.com/spreadsheets/d/1JJBlHHDc65fhZmKUGLrDTLCm6rfUU83-kbuD8Y0zU0o/edit?gid=2047725819#gid=2047725819)
+- [Retro Aesthetics’ Mario Series Matches](https://retroaesthetics.net/mario-series-matches/)
+- [TCRF’s Page](https://tcrf.net/Prerelease:Super_Mario_64_(Nintendo_64)/Shoshinkai_1995_Demo)
 - [Original TPP Source Code](https://github.com/Sunlitspace542/tpp-mirror)
-
-## Installation
-
-Go read the instructions on the SM64 Decomp's [README](https://github.com/n64decomp/sm64/blob/master/README.md#installation).
