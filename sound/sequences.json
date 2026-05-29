@@ -9,7 +9,7 @@
     "06_level_hot": ["0F"],
     "07_level_boss_koopa": ["12"],
     "08_level_snow": null,
-    "09_level_slide": null,
+    "09_level_slide": ["15"],
     "0A_level_spooky": null,
     "0B_event_piranha_plant": null,
     "0C_level_underground": null,

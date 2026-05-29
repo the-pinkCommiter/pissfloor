@@ -359,7 +359,6 @@ void render_hud_stars(void) {
     print_text_fmt_int(star_disp, 210, digits, gHudDisplay.stars);
 }
 
-
 /**
  * Render HUD strings using hudDisplayFlags with it's render functions,
  * excluding the cannon reticle which detects a camera preset for it.

@@ -66,7 +66,7 @@ const LevelScript level_castle_grounds_entry[] = {
         JUMP_LINK(script_func_local_1),
         JUMP_LINK(script_func_local_2),
         TERRAIN(/*terrainData*/ castle_grounds_collision),
-        SET_BACKGROUND_MUSIC(/*settingsPreset*/ 0x0000, /*seq*/ SEQ_SOUND_PLAYER),
+        SET_BACKGROUND_MUSIC(/*settingsPreset*/ 0x0005, /*seq*/ SEQ_LEVEL_SLIDE),
         TERRAIN_TYPE(/*terrainType*/ TERRAIN_GRASS),
     END_AREA(),
 
